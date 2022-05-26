@@ -72,4 +72,5 @@ cd ~
 git clone https://www.github.com/Emil-Engberg/dotfiles.git/
 ln -sf /home/emil/github/dotfiles/.config /home/emil/
 ln -sf ~/github/dotfiles/.gitconfig ~/
+ln -sf ~/github/dotfiles/.global_gitignore ~/
 EOF

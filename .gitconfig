@@ -1,0 +1,5 @@
+[user]
+	email = emil.engberg@outlook.com
+	name = Emil Engberg
+[core]
+	excludefiles = /home/emil/.global_gitignore
