@@ -62,6 +62,7 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 mkdir github
+exit
 sed -n '$d' /etc/sudoers
 sed -n '$d' /etc/sudoers
 echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
