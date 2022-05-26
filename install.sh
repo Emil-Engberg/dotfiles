@@ -69,6 +69,8 @@ sed -n '$d' /mnt/etc/sudoers
 echo "%wheel ALL=(ALL:ALL) ALL" >> /mnt/etc/sudoers
 arch-chroot /mnt /bin/bash << "EOF"
 ln -sf /home/emil/github/dotfiles/xorg.conf /etc/X11/
-ln -sf /home/emil/github/dotfiles/00-keyboard.conf /etc/X11/xorg.conf.d/
-ln -sf /home/emil/github/dotfiles/config /home/emil/.config/i3/
+ln -sf /home/emil/github/dotfiles/xorg.conf.d /etc/X11/
+su emil
+cd ~
+ln -sf /home/emil/github/dotfiles/.config /home/emil/
 EOF
