@@ -68,7 +68,7 @@ echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ln -sf /home/emil/github/dotfiles/xorg.conf /etc/X11/
 ln -sf /home/emil/github/dotfiles/xorg.conf.d /etc/X11/
 su emil
-cd ~
+cd ~/github/
 git clone https://www.github.com/Emil-Engberg/dotfiles.git/
 ln -sf /home/emil/github/dotfiles/.config /home/emil/
 ln -sf ~/github/dotfiles/.gitconfig ~/
