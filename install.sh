@@ -62,15 +62,14 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 mkdir github
-EOF
-cp -r ../dotfiles /mnt/home/emil/github
-sed -n '$d' /mnt/etc/sudoers
-sed -n '$d' /mnt/etc/sudoers
-echo "%wheel ALL=(ALL:ALL) ALL" >> /mnt/etc/sudoers
-arch-chroot /mnt /bin/bash << "EOF"
+sed -n '$d' /etc/sudoers
+sed -n '$d' /etc/sudoers
+echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ln -sf /home/emil/github/dotfiles/xorg.conf /etc/X11/
 ln -sf /home/emil/github/dotfiles/xorg.conf.d /etc/X11/
 su emil
 cd ~
+git clone https://www.github.com/Emil-Engberg/dotfiles.git/
 ln -sf /home/emil/github/dotfiles/.config /home/emil/
+ln -sf ~/github/dotfiles/.gitconfig ~/
 EOF
