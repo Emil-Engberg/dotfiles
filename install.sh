@@ -76,6 +76,8 @@ rm -rf /etc/X11/xorg.conf.d
 ln -sf /home/emil/github/dotfiles/xorg.conf.d /etc/X11/
 su emil
 cd ~/github/
+git clone https://www.github.com/Emil-Engberg/Emacs_conf
+ln -sf Emacs_conf/ ~/.emacs.d
 git clone https://www.github.com/Emil-Engberg/dotfiles.git/
 ln -sf /home/emil/github/dotfiles/.config /home/emil/
 ln -sf ~/github/dotfiles/.gitconfig ~/
