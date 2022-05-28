@@ -33,6 +33,10 @@ echo "emil:$2" >> /mnt/pass.txt
 arch-chroot /mnt /bin/bash << "EOF"
 ln -sf /usr/share/zoneinfo/Europe/Stockholm /etc/localtime
 hwclock --systohc
+cat >> /etc/pacman.conf << "END"
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+END
 cat >> /etc/locale.gen << "END"
 en_US.UTF-8 UTF-8
 END
