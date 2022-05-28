@@ -37,6 +37,7 @@ cat >> /etc/pacman.conf << "END"
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 END
+pacman -Sy lib32-nvidia-utils steam
 cat >> /etc/locale.gen << "END"
 en_US.UTF-8 UTF-8
 END
