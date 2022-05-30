@@ -73,6 +73,8 @@ ln -sf /home/emil/github/dotfiles/pacman.conf /etc/
 ln -sf /home/emil/github/dotfiles/xorg.conf /etc/X11/
 rm -rf /etc/X11/xorg.conf.d
 ln -sf /home/emil/github/dotfiles/xorg.conf.d /etc/X11/
+rm -rf /etc/gtk-3.0
+ln -sf /home/emil/github/dotfiles/.config/gtk-3.0 /etc/
 su emil
 cd ~/github/
 git clone https://www.github.com/Emil-Engberg/Emacs_conf
