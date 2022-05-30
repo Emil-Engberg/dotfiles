@@ -27,7 +27,7 @@ rm -rf /etc/pacman.conf
 ln -sf /root/dotfiles/pacman.conf /etc/
 mount /dev/nvme0n1p2 /mnt
 mount --mkdir /dev/nvme0n1p1 /mnt/boot
-pacstrap /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano xorg-server i3-gaps dmenu firefox gnome-terminal lightdm lightdm-gtk-greeter nvidia i3status neofetch git nvidia-settings discord pipewire pipewire-alsa pipewire-pulse pavucontrol lib32-nvidia-utils steam go bluez bluez-utils picom openssh
+pacstrap /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano xorg-server i3-gaps dmenu firefox gnome-terminal lightdm lightdm-gtk-greeter nvidia i3status neofetch git discord pipewire pipewire-alsa pipewire-pulse pavucontrol lib32-nvidia-utils steam go bluez bluez-utils openssh
 mount --mkdir /dev/sda1 /mnt/mnt/steam
 genfstab -U /mnt >> /mnt/etc/fstab
 echo "root:$1" >> /mnt/pass.txt
@@ -74,8 +74,6 @@ ln -sf /home/emil/github/dotfiles/pacman.conf /etc/
 ln -sf /home/emil/github/dotfiles/xorg.conf /etc/X11/
 rm -rf /etc/X11/xorg.conf.d
 ln -sf /home/emil/github/dotfiles/xorg.conf.d /etc/X11/
-rm -rf /etc/gtk-3.0
-ln -sf /home/emil/github/dotfiles/.config/gtk-3.0 /etc/
 su emil
 cd ~/github/
 git clone https://www.github.com/Emil-Engberg/Emacs_conf
