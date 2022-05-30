@@ -23,9 +23,11 @@ mkfs.ext4 /dev/nvme0n1p2 << "EOF"
 y
 EOF
 mkfs.fat -F 32 /dev/nvme0n1p1
+rm -rf /etc/pacman.conf
+ln -sf pacman.conf /etc/
 mount /dev/nvme0n1p2 /mnt
 mount --mkdir /dev/nvme0n1p1 /mnt/boot
-pacstrap /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano xorg-server i3-gaps dmenu firefox gnome-terminal lightdm lightdm-gtk-greeter nvidia i3status neofetch git nvidia-settings discord pipewire pipewire-alsa pipewire-pulse pavucontrol 
+pacstrap /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano xorg-server i3-gaps dmenu firefox gnome-terminal lightdm lightdm-gtk-greeter nvidia i3status neofetch git nvidia-settings discord pipewire pipewire-alsa pipewire-pulse pavucontrol lib32-nvidia-utils steam
 mount --mkdir /dev/sda1 /mnt/mnt/steam
 genfstab -U /mnt >> /mnt/etc/fstab
 echo "root:$1" >> /mnt/pass.txt
@@ -33,11 +35,6 @@ echo "emil:$2" >> /mnt/pass.txt
 arch-chroot /mnt /bin/bash << "EOF"
 ln -sf /usr/share/zoneinfo/Europe/Stockholm /etc/localtime
 hwclock --systohc
-cat >> /etc/pacman.conf << "END"
-[multilib]
-Include = /etc/pacman.d/mirrorlist
-END
-pacman -Sy --noconfirm lib32-nvidia-utils steam
 cat >> /etc/locale.gen << "END"
 en_US.UTF-8 UTF-8
 END
@@ -71,6 +68,7 @@ exit
 sed -n '$d' /etc/sudoers
 sed -n '$d' /etc/sudoers
 echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
+ln -sf /home/emil/github/dotfiles/pacman.conf /etc/
 ln -sf /home/emil/github/dotfiles/xorg.conf /etc/X11/
 rm -rf /etc/X11/xorg.conf.d
 ln -sf /home/emil/github/dotfiles/xorg.conf.d /etc/X11/
@@ -79,7 +77,7 @@ cd ~/github/
 git clone https://www.github.com/Emil-Engberg/Emacs_conf
 ln -sf ~/github/Emacs_conf/ ~/.emacs.d
 git clone https://www.github.com/Emil-Engberg/dotfiles.git/
-ln -sf /home/emil/github/dotfiles/.config /home/emil/
+ln -sf ~/github/dotfiles/.config ~/
 ln -sf ~/github/dotfiles/.gitconfig ~/
 ln -sf ~/github/dotfiles/.global_gitignore ~/
 EOF
