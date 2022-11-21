@@ -49,6 +49,8 @@ cat >> /etc/hostname << "END"
 arch-desktop
 END
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+rm -rf /etc/default/grub
+ln -sf grub /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager
 systemctl enable lightdm
