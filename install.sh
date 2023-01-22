@@ -1,28 +1,6 @@
 #!/bin/bash
 umount -R /mnt
 timedatectl set-ntp true
-fdisk /dev/nvme0n1 << "EOF"
-g
-n
-
-
-+300M
-n
-
-
-
-t
-1
-1
-t
-2
-23
-w
-EOF
-mkfs.ext4 /dev/nvme0n1p2 << "EOF"
-y
-EOF
-mkfs.fat -F 32 /dev/nvme0n1p1
 rm -rf /etc/pacman.conf
 ln -sf /root/dotfiles/pacman.conf /etc/
 mount /dev/nvme0n1p2 /mnt
