@@ -1,8 +1,12 @@
 #!/bin/bash
 umount -R /mnt
 sfdisk /dev/nvme0n1 < disk.txt
-mkfs.ext4 /dev/nvme0n1p2
-mkfs.fat -F 32 /dev/nvme0n1p1
+mkfs.ext4 /dev/nvme0n1p2 <<EOF
+y
+EOF
+mkfs.fat -F 32 /dev/nvme0n1p1<<EOF
+y
+EOF
 timedatectl set-ntp true
 rm -rf /etc/pacman.conf
 ln -sf /root/dotfiles/pacman.conf /etc/
