@@ -12,7 +12,7 @@ rm -rf /etc/pacman.conf
 ln -sf /root/dotfiles/pacman.conf /etc/
 mount /dev/nvme0n1p2 /mnt
 mount --mkdir /dev/nvme0n1p1 /mnt/boot
-pacstrap -K /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano xorg-server i3-wm i3status dmenu firefox gnome-terminal sddm i3status neofetch git discord pipewire pipewire-alsa pipewire-pulse wireplumber pavucontrol steam go bluez bluez-utils openssh bash-completion mesa lib32-mesa vulkan-intel sway swaybg foot
+pacstrap -K /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano xorg-server i3-wm i3status dmenu firefox gnome-terminal sddm i3status neofetch git discord pipewire pipewire-alsa pipewire-pulse wireplumber pavucontrol steam go bluez bluez-utils openssh bash-completion mesa lib32-mesa vulkan-intel sway swaybg foot xorg-xwayland polkit
 mount --mkdir /dev/sda1 /mnt/mnt/steam
 genfstab -U /mnt >> /mnt/etc/fstab
 echo "root:$1" >> /mnt/pass.txt
