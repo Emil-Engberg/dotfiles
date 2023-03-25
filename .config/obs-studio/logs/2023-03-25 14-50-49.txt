@@ -1,0 +1,838 @@
+14:50:49.414: Using EGL/X11
+14:50:49.415: CPU Name: AMD Ryzen 5 3600XT 6-Core Processor
+14:50:49.415: CPU Speed: 4235.883MHz
+14:50:49.415: Physical Cores: 6, Logical Cores: 12
+14:50:49.415: Physical Memory: 32012MB Total, 29389MB Free
+14:50:49.415: Kernel Version: Linux 6.2.8-arch1-1
+14:50:49.415: Distribution: "Arch Linux" Unknown
+14:50:49.415: Session Type: wayland
+14:50:49.415: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.23.1
+14:50:49.415: Qt Version: 6.4.3 (runtime), 6.4.2 (compiled)
+14:50:49.415: Portable mode: false
+14:50:49.433: OBS 29.0.2-2 (linux)
+14:50:49.433: ---------------------------------
+14:50:49.434: ---------------------------------
+14:50:49.434: audio settings reset:
+14:50:49.434: 	samples per sec: 48000
+14:50:49.434: 	speakers:        2
+14:50:49.434: 	max buffering:   960 milliseconds
+14:50:49.434: 	buffering type:  dynamically increasing
+14:50:49.436: ---------------------------------
+14:50:49.436: Initializing OpenGL...
+14:50:49.472: Loading up OpenGL on adapter Intel Mesa Intel(R) Arc(tm) A770 Graphics (DG2)
+14:50:49.472: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.0.0, shading language 4.60
+14:50:49.493: ---------------------------------
+14:50:49.494: video settings reset:
+14:50:49.494: 	base resolution:   1920x1080
+14:50:49.494: 	output resolution: 1920x1080
+14:50:49.494: 	downscale filter:  Bicubic
+14:50:49.494: 	fps:               60/1
+14:50:49.494: 	format:            NV12
+14:50:49.494: 	YUV mode:          Rec. 709/Partial
+14:50:49.494: NV12 texture support not available
+14:50:49.494: P010 texture support not available
+14:50:49.497: Audio monitoring device:
+14:50:49.497: 	name: Default
+14:50:49.497: 	id: default
+14:50:49.497: ---------------------------------
+14:50:49.503: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:50:49.508: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:50:49.513: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:50:49.513: Failed to initialize module 'decklink.so'
+14:50:49.515: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+14:50:49.515: 
+14:50:49.516: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+14:50:49.516: 
+14:50:49.516: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+14:50:49.628: [pipewire] Available captures:
+14:50:49.628: [pipewire]     - Desktop capture
+14:50:49.642: v4l2loopback not installed, virtual camera disabled
+14:50:49.655: VAAPI: API version 1.17
+14:50:49.655: FFmpeg VAAPI H264 encoding supported
+14:50:49.696: ---------------------------------
+14:50:49.696:   Loaded Modules:
+14:50:49.696:     text-freetype2.so
+14:50:49.696:     rtmp-services.so
+14:50:49.696:     obs-x264.so
+14:50:49.696:     obs-vst.so
+14:50:49.696:     obs-transitions.so
+14:50:49.696:     obs-outputs.so
+14:50:49.696:     obs-libfdk.so
+14:50:49.696:     obs-filters.so
+14:50:49.696:     obs-ffmpeg.so
+14:50:49.696:     linux-v4l2.so
+14:50:49.696:     linux-pulseaudio.so
+14:50:49.696:     linux-pipewire.so
+14:50:49.696:     linux-jack.so
+14:50:49.696:     linux-capture.so
+14:50:49.696:     linux-alsa.so
+14:50:49.696:     image-source.so
+14:50:49.696:     decklink-output-ui.so
+14:50:49.696:     decklink-captions.so
+14:50:49.696: ---------------------------------
+14:50:49.696: ==== Startup complete ===============================================
+14:50:49.733: All scene data cleared
+14:50:49.733: ------------------------------------------------
+14:50:49.735: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+14:50:49.735: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+14:50:49.735: pulse-input: Started recording from 'alsa_output.pci-0000_10_00.4.iec958-stereo.monitor' (default)
+14:50:49.735: [Loaded global audio device]: 'Desktop Audio'
+14:50:49.736: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+14:50:49.736: pulse-input: Audio format: s16le, 16000 Hz, 1 channels
+14:50:49.736: pulse-input: Started recording from 'alsa_input.usb-GENERAL_GENERAL_WEBCAM-02.mono-fallback' (default)
+14:50:49.736: [Loaded global audio device]: 'Mic/Aux'
+14:50:49.736: xshm-input: Geometry 1920x1080 @ 0,0
+14:50:49.738: Switched to scene 'Scene'
+14:50:49.738: ------------------------------------------------
+14:50:49.738: Loaded scenes:
+14:50:49.738: - scene 'Scene':
+14:50:49.738:     - source: 'Screen Capture (XSHM)' (xshm_input)
+14:50:49.738: ------------------------------------------------
+14:50:50.288: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+14:50:50.288: 
+14:50:56.221: PipeWire initialized
+14:50:56.224: User added source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) to scene 'Scene'
+14:50:56.242: [pipewire] Screencast session created
+14:50:56.253: [pipewire] Asking for desktop
+14:50:56.256: [pipewire] desktop selected, setting up screencast
+14:50:56.259: [pipewire] Server version: 0.3.67
+14:50:56.259: [pipewire] Library version: 0.3.67
+14:50:56.259: [pipewire] Header version: 0.3.66
+14:50:56.259: [pipewire] Created stream 0x5563f5c56380
+14:50:56.259: [pipewire] Stream 0x5563f5c56380 state: "connecting" (error: none)
+14:50:56.259: [pipewire] Playing stream 0x5563f5c56380
+14:50:56.260: [pipewire] Stream 0x5563f5c56380 state: "paused" (error: none)
+14:50:56.261: [pipewire] Negotiated format:
+14:50:56.261: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:50:56.261: [pipewire]     Modifier: 0
+14:50:56.261: [pipewire]     Size: 1920x1080
+14:50:56.261: [pipewire]     Framerate: 0/1
+14:50:56.262: [pipewire] Negotiated format:
+14:50:56.262: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:50:56.262: [pipewire]     Modifier: 72057594037927948
+14:50:56.262: [pipewire]     Size: 1920x1080
+14:50:56.262: [pipewire]     Framerate: 0/1
+14:50:56.266: [pipewire] Stream 0x5563f5c56380 state: "streaming" (error: none)
+14:50:56.278: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:50:56.278: [pipewire] Renegotiating stream
+14:50:56.278: [pipewire] Negotiated format:
+14:50:56.278: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:50:56.278: [pipewire]     Modifier: 72057594037927948
+14:50:56.278: [pipewire]     Size: 1920x1080
+14:50:56.278: [pipewire]     Framerate: 0/1
+14:50:56.280: [pipewire] Negotiated format:
+14:50:56.280: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:50:56.280: [pipewire]     Modifier: 72057594037927946
+14:50:56.280: [pipewire]     Size: 1920x1080
+14:50:56.280: [pipewire]     Framerate: 0/1
+14:51:02.960: User Removed source 'Screen Capture (XSHM)' (xshm_input) from scene 'Scene'
+14:51:11.453: [pipewire] Stream 0x5563f5c56380 state: "paused" (error: none)
+14:51:11.453: [pipewire] Stream 0x5563f5c56380 state: "unconnected" (error: none)
+14:51:11.454: PipeWire initialized
+14:51:11.456: [pipewire] Screencast session created
+14:51:11.469: [pipewire] Asking for desktop
+14:51:11.470: [pipewire] desktop selected, setting up screencast
+14:51:11.473: [pipewire] Server version: 0.3.67
+14:51:11.474: [pipewire] Library version: 0.3.67
+14:51:11.474: [pipewire] Header version: 0.3.66
+14:51:11.474: [pipewire] Created stream 0x5563f5c7d810
+14:51:11.474: [pipewire] Stream 0x5563f5c7d810 state: "connecting" (error: none)
+14:51:11.474: [pipewire] Playing stream 0x5563f5c7d810
+14:51:11.474: [pipewire] Stream 0x5563f5c7d810 state: "paused" (error: none)
+14:51:11.476: [pipewire] Negotiated format:
+14:51:11.476: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:11.476: [pipewire]     Modifier: 0
+14:51:11.476: [pipewire]     Size: 1920x1080
+14:51:11.476: [pipewire]     Framerate: 0/1
+14:51:11.478: [pipewire] Negotiated format:
+14:51:11.478: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:11.478: [pipewire]     Modifier: 72057594037927948
+14:51:11.478: [pipewire]     Size: 1920x1080
+14:51:11.478: [pipewire]     Framerate: 0/1
+14:51:11.481: [pipewire] Stream 0x5563f5c7d810 state: "streaming" (error: none)
+14:51:12.770: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:51:12.770: [pipewire] Renegotiating stream
+14:51:12.770: [pipewire] Negotiated format:
+14:51:12.770: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:12.770: [pipewire]     Modifier: 72057594037927948
+14:51:12.770: [pipewire]     Size: 1920x1080
+14:51:12.770: [pipewire]     Framerate: 0/1
+14:51:12.772: [pipewire] Negotiated format:
+14:51:12.772: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:12.772: [pipewire]     Modifier: 72057594037927946
+14:51:12.772: [pipewire]     Size: 1920x1080
+14:51:12.772: [pipewire]     Framerate: 0/1
+14:51:15.043: [pipewire] Stream 0x5563f5c7d810 state: "paused" (error: none)
+14:51:15.043: [pipewire] Stream 0x5563f5c7d810 state: "unconnected" (error: none)
+14:51:15.043: PipeWire initialized
+14:51:15.045: [pipewire] Screencast session created
+14:51:15.056: [pipewire] Asking for desktop
+14:51:15.057: [pipewire] desktop selected, setting up screencast
+14:51:15.060: [pipewire] Server version: 0.3.67
+14:51:15.060: [pipewire] Library version: 0.3.67
+14:51:15.060: [pipewire] Header version: 0.3.66
+14:51:15.060: [pipewire] Created stream 0x5563f5c7d810
+14:51:15.060: [pipewire] Stream 0x5563f5c7d810 state: "connecting" (error: none)
+14:51:15.060: [pipewire] Playing stream 0x5563f5c7d810
+14:51:15.060: [pipewire] Stream 0x5563f5c7d810 state: "paused" (error: none)
+14:51:15.063: [pipewire] Negotiated format:
+14:51:15.063: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:15.063: [pipewire]     Modifier: 0
+14:51:15.063: [pipewire]     Size: 1920x1080
+14:51:15.063: [pipewire]     Framerate: 0/1
+14:51:15.065: [pipewire] Negotiated format:
+14:51:15.065: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:15.065: [pipewire]     Modifier: 72057594037927948
+14:51:15.065: [pipewire]     Size: 1920x1080
+14:51:15.065: [pipewire]     Framerate: 0/1
+14:51:15.068: [pipewire] Stream 0x5563f5c7d810 state: "streaming" (error: none)
+14:51:16.169: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:51:16.169: [pipewire] Renegotiating stream
+14:51:16.169: [pipewire] Negotiated format:
+14:51:16.169: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:16.169: [pipewire]     Modifier: 72057594037927948
+14:51:16.169: [pipewire]     Size: 1920x1080
+14:51:16.169: [pipewire]     Framerate: 0/1
+14:51:16.172: [pipewire] Negotiated format:
+14:51:16.172: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:16.172: [pipewire]     Modifier: 72057594037927946
+14:51:16.172: [pipewire]     Size: 1920x1080
+14:51:16.172: [pipewire]     Framerate: 0/1
+14:51:23.056: User Removed source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) from scene 'Scene'
+14:51:23.057: [pipewire] Stream 0x5563f5c7d810 state: "paused" (error: none)
+14:51:23.057: [pipewire] Stream 0x5563f5c7d810 state: "unconnected" (error: none)
+14:51:29.097: PipeWire initialized
+14:51:29.100: User added source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) to scene 'Scene'
+14:51:29.117: [pipewire] Screencast session created
+14:51:29.127: [pipewire] Asking for desktop
+14:51:29.129: [pipewire] desktop selected, setting up screencast
+14:51:29.135: [pipewire] Server version: 0.3.67
+14:51:29.135: [pipewire] Library version: 0.3.67
+14:51:29.135: [pipewire] Header version: 0.3.66
+14:51:29.135: [pipewire] Created stream 0x5563f5c65540
+14:51:29.135: [pipewire] Stream 0x5563f5c65540 state: "connecting" (error: none)
+14:51:29.135: [pipewire] Playing stream 0x5563f5c65540
+14:51:29.135: [pipewire] Stream 0x5563f5c65540 state: "paused" (error: none)
+14:51:29.137: [pipewire] Negotiated format:
+14:51:29.137: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:29.137: [pipewire]     Modifier: 0
+14:51:29.137: [pipewire]     Size: 1920x1080
+14:51:29.137: [pipewire]     Framerate: 0/1
+14:51:29.139: [pipewire] Negotiated format:
+14:51:29.139: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:29.139: [pipewire]     Modifier: 72057594037927948
+14:51:29.139: [pipewire]     Size: 1920x1080
+14:51:29.139: [pipewire]     Framerate: 0/1
+14:51:29.144: [pipewire] Stream 0x5563f5c65540 state: "streaming" (error: none)
+14:51:29.146: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:51:29.146: [pipewire] Renegotiating stream
+14:51:29.146: [pipewire] Negotiated format:
+14:51:29.146: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:29.146: [pipewire]     Modifier: 72057594037927948
+14:51:29.146: [pipewire]     Size: 1920x1080
+14:51:29.146: [pipewire]     Framerate: 0/1
+14:51:29.149: [pipewire] Negotiated format:
+14:51:29.149: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:29.149: [pipewire]     Modifier: 72057594037927946
+14:51:29.149: [pipewire]     Size: 1920x1080
+14:51:29.149: [pipewire]     Framerate: 0/1
+14:51:30.477: [pipewire] Stream 0x5563f5c65540 state: "paused" (error: none)
+14:51:30.477: [pipewire] Stream 0x5563f5c65540 state: "unconnected" (error: none)
+14:51:30.478: PipeWire initialized
+14:51:30.480: [pipewire] Screencast session created
+14:51:30.491: [pipewire] Asking for desktop
+14:51:30.493: [pipewire] desktop selected, setting up screencast
+14:51:30.499: [pipewire] Server version: 0.3.67
+14:51:30.499: [pipewire] Library version: 0.3.67
+14:51:30.499: [pipewire] Header version: 0.3.66
+14:51:30.499: [pipewire] Created stream 0x5563f5c91560
+14:51:30.499: [pipewire] Stream 0x5563f5c91560 state: "connecting" (error: none)
+14:51:30.499: [pipewire] Playing stream 0x5563f5c91560
+14:51:30.500: [pipewire] Stream 0x5563f5c91560 state: "paused" (error: none)
+14:51:30.502: [pipewire] Negotiated format:
+14:51:30.502: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:30.502: [pipewire]     Modifier: 0
+14:51:30.502: [pipewire]     Size: 1920x1080
+14:51:30.502: [pipewire]     Framerate: 0/1
+14:51:30.505: [pipewire] Negotiated format:
+14:51:30.505: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:30.505: [pipewire]     Modifier: 72057594037927948
+14:51:30.505: [pipewire]     Size: 1920x1080
+14:51:30.505: [pipewire]     Framerate: 0/1
+14:51:30.510: [pipewire] Stream 0x5563f5c91560 state: "streaming" (error: none)
+14:51:31.192: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:51:31.192: [pipewire] Renegotiating stream
+14:51:31.192: [pipewire] Negotiated format:
+14:51:31.192: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:31.192: [pipewire]     Modifier: 72057594037927948
+14:51:31.192: [pipewire]     Size: 1920x1080
+14:51:31.192: [pipewire]     Framerate: 0/1
+14:51:31.193: [pipewire] Negotiated format:
+14:51:31.193: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:31.193: [pipewire]     Modifier: 72057594037927946
+14:51:31.193: [pipewire]     Size: 1920x1080
+14:51:31.193: [pipewire]     Framerate: 0/1
+14:51:32.434: [pipewire] Stream 0x5563f5c91560 state: "paused" (error: none)
+14:51:32.435: [pipewire] Stream 0x5563f5c91560 state: "unconnected" (error: none)
+14:51:32.435: PipeWire initialized
+14:51:32.437: [pipewire] Screencast session created
+14:51:32.448: [pipewire] Asking for desktop
+14:51:32.449: [pipewire] desktop selected, setting up screencast
+14:51:32.453: [pipewire] Server version: 0.3.67
+14:51:32.453: [pipewire] Library version: 0.3.67
+14:51:32.453: [pipewire] Header version: 0.3.66
+14:51:32.453: [pipewire] Created stream 0x5563f5ce8150
+14:51:32.453: [pipewire] Stream 0x5563f5ce8150 state: "connecting" (error: none)
+14:51:32.453: [pipewire] Playing stream 0x5563f5ce8150
+14:51:32.453: [pipewire] Stream 0x5563f5ce8150 state: "paused" (error: none)
+14:51:32.456: [pipewire] Negotiated format:
+14:51:32.456: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:32.456: [pipewire]     Modifier: 0
+14:51:32.456: [pipewire]     Size: 1920x1080
+14:51:32.456: [pipewire]     Framerate: 0/1
+14:51:32.459: [pipewire] Negotiated format:
+14:51:32.459: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:32.459: [pipewire]     Modifier: 72057594037927948
+14:51:32.459: [pipewire]     Size: 1920x1080
+14:51:32.459: [pipewire]     Framerate: 0/1
+14:51:32.464: [pipewire] Stream 0x5563f5ce8150 state: "streaming" (error: none)
+14:51:34.196: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:51:34.196: [pipewire] Renegotiating stream
+14:51:34.196: [pipewire] Negotiated format:
+14:51:34.196: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:34.196: [pipewire]     Modifier: 72057594037927948
+14:51:34.196: [pipewire]     Size: 1920x1080
+14:51:34.196: [pipewire]     Framerate: 0/1
+14:51:34.198: [pipewire] Negotiated format:
+14:51:34.198: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:34.198: [pipewire]     Modifier: 72057594037927946
+14:51:34.198: [pipewire]     Size: 1920x1080
+14:51:34.198: [pipewire]     Framerate: 0/1
+14:51:37.425: [pipewire] Stream 0x5563f5ce8150 state: "paused" (error: none)
+14:51:37.425: [pipewire] Stream 0x5563f5ce8150 state: "unconnected" (error: none)
+14:51:37.426: PipeWire initialized
+14:51:37.428: [pipewire] Screencast session created
+14:51:37.439: [pipewire] Asking for desktop
+14:51:37.440: [pipewire] desktop selected, setting up screencast
+14:51:37.443: [pipewire] Server version: 0.3.67
+14:51:37.443: [pipewire] Library version: 0.3.67
+14:51:37.443: [pipewire] Header version: 0.3.66
+14:51:37.443: [pipewire] Created stream 0x5563f5cb3050
+14:51:37.443: [pipewire] Stream 0x5563f5cb3050 state: "connecting" (error: none)
+14:51:37.443: [pipewire] Playing stream 0x5563f5cb3050
+14:51:37.443: [pipewire] Stream 0x5563f5cb3050 state: "paused" (error: none)
+14:51:37.445: [pipewire] Negotiated format:
+14:51:37.445: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:37.445: [pipewire]     Modifier: 0
+14:51:37.445: [pipewire]     Size: 1920x1080
+14:51:37.445: [pipewire]     Framerate: 0/1
+14:51:37.446: [pipewire] Negotiated format:
+14:51:37.446: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:37.446: [pipewire]     Modifier: 72057594037927948
+14:51:37.446: [pipewire]     Size: 1920x1080
+14:51:37.446: [pipewire]     Framerate: 0/1
+14:51:37.449: [pipewire] Stream 0x5563f5cb3050 state: "streaming" (error: none)
+14:51:38.325: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:51:38.325: [pipewire] Renegotiating stream
+14:51:38.326: [pipewire] Negotiated format:
+14:51:38.326: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:38.326: [pipewire]     Modifier: 72057594037927948
+14:51:38.326: [pipewire]     Size: 1920x1080
+14:51:38.326: [pipewire]     Framerate: 0/1
+14:51:38.327: [pipewire] Negotiated format:
+14:51:38.327: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:51:38.327: [pipewire]     Modifier: 72057594037927946
+14:51:38.327: [pipewire]     Size: 1920x1080
+14:51:38.327: [pipewire]     Framerate: 0/1
+14:52:45.315: User Removed source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) from scene 'Scene'
+14:52:45.316: [pipewire] Stream 0x5563f5cb3050 state: "paused" (error: none)
+14:52:45.316: [pipewire] Stream 0x5563f5cb3050 state: "unconnected" (error: none)
+14:52:49.303: PipeWire initialized
+14:52:49.305: User added source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) to scene 'Scene'
+14:52:49.322: [pipewire] Screencast session created
+14:52:49.332: [pipewire] Asking for desktop
+14:52:49.334: [pipewire] desktop selected, setting up screencast
+14:52:49.337: [pipewire] Server version: 0.3.67
+14:52:49.337: [pipewire] Library version: 0.3.67
+14:52:49.337: [pipewire] Header version: 0.3.66
+14:52:49.337: [pipewire] Created stream 0x5563f5ce5080
+14:52:49.337: [pipewire] Stream 0x5563f5ce5080 state: "connecting" (error: none)
+14:52:49.337: [pipewire] Playing stream 0x5563f5ce5080
+14:52:49.337: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:49.340: [pipewire] Negotiated format:
+14:52:49.340: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:49.340: [pipewire]     Modifier: 0
+14:52:49.340: [pipewire]     Size: 1920x1080
+14:52:49.340: [pipewire]     Framerate: 0/1
+14:52:49.341: [pipewire] Negotiated format:
+14:52:49.341: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:49.341: [pipewire]     Modifier: 72057594037927948
+14:52:49.341: [pipewire]     Size: 1920x1080
+14:52:49.341: [pipewire]     Framerate: 0/1
+14:52:49.344: [pipewire] Stream 0x5563f5ce5080 state: "streaming" (error: none)
+14:52:49.350: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:49.350: [pipewire] Renegotiating stream
+14:52:49.350: [pipewire] Negotiated format:
+14:52:49.350: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:49.350: [pipewire]     Modifier: 72057594037927948
+14:52:49.350: [pipewire]     Size: 1920x1080
+14:52:49.350: [pipewire]     Framerate: 0/1
+14:52:49.351: [pipewire] Negotiated format:
+14:52:49.351: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:49.351: [pipewire]     Modifier: 72057594037927946
+14:52:49.351: [pipewire]     Size: 1920x1080
+14:52:49.351: [pipewire]     Framerate: 0/1
+14:52:50.253: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:50.253: [pipewire] Stream 0x5563f5ce5080 state: "unconnected" (error: none)
+14:52:50.253: PipeWire initialized
+14:52:50.256: [pipewire] Screencast session created
+14:52:50.267: [pipewire] Asking for desktop
+14:52:50.268: [pipewire] desktop selected, setting up screencast
+14:52:50.272: [pipewire] Server version: 0.3.67
+14:52:50.272: [pipewire] Library version: 0.3.67
+14:52:50.272: [pipewire] Header version: 0.3.66
+14:52:50.272: [pipewire] Created stream 0x5563f5cc8c20
+14:52:50.272: [pipewire] Stream 0x5563f5cc8c20 state: "connecting" (error: none)
+14:52:50.272: [pipewire] Playing stream 0x5563f5cc8c20
+14:52:50.272: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:50.274: [pipewire] Negotiated format:
+14:52:50.274: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.274: [pipewire]     Modifier: 0
+14:52:50.274: [pipewire]     Size: 1920x1080
+14:52:50.274: [pipewire]     Framerate: 0/1
+14:52:50.275: [pipewire] Negotiated format:
+14:52:50.275: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.275: [pipewire]     Modifier: 72057594037927948
+14:52:50.275: [pipewire]     Size: 1920x1080
+14:52:50.275: [pipewire]     Framerate: 0/1
+14:52:50.278: [pipewire] Stream 0x5563f5cc8c20 state: "streaming" (error: none)
+14:52:50.283: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:50.283: [pipewire] Renegotiating stream
+14:52:50.283: [pipewire] Negotiated format:
+14:52:50.283: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.283: [pipewire]     Modifier: 72057594037927948
+14:52:50.283: [pipewire]     Size: 1920x1080
+14:52:50.283: [pipewire]     Framerate: 0/1
+14:52:50.284: [pipewire] Negotiated format:
+14:52:50.284: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.284: [pipewire]     Modifier: 72057594037927946
+14:52:50.284: [pipewire]     Size: 1920x1080
+14:52:50.284: [pipewire]     Framerate: 0/1
+14:52:50.889: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:50.889: [pipewire] Stream 0x5563f5cc8c20 state: "unconnected" (error: none)
+14:52:50.890: PipeWire initialized
+14:52:50.892: [pipewire] Screencast session created
+14:52:50.901: [pipewire] Asking for desktop
+14:52:50.903: [pipewire] desktop selected, setting up screencast
+14:52:50.906: [pipewire] Server version: 0.3.67
+14:52:50.906: [pipewire] Library version: 0.3.67
+14:52:50.906: [pipewire] Header version: 0.3.66
+14:52:50.906: [pipewire] Created stream 0x5563f5ce5080
+14:52:50.906: [pipewire] Stream 0x5563f5ce5080 state: "connecting" (error: none)
+14:52:50.906: [pipewire] Playing stream 0x5563f5ce5080
+14:52:50.906: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:50.908: [pipewire] Negotiated format:
+14:52:50.908: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.908: [pipewire]     Modifier: 0
+14:52:50.908: [pipewire]     Size: 1920x1080
+14:52:50.908: [pipewire]     Framerate: 0/1
+14:52:50.909: [pipewire] Negotiated format:
+14:52:50.909: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.909: [pipewire]     Modifier: 72057594037927948
+14:52:50.909: [pipewire]     Size: 1920x1080
+14:52:50.909: [pipewire]     Framerate: 0/1
+14:52:50.912: [pipewire] Stream 0x5563f5ce5080 state: "streaming" (error: none)
+14:52:50.916: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:50.916: [pipewire] Renegotiating stream
+14:52:50.916: [pipewire] Negotiated format:
+14:52:50.916: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.916: [pipewire]     Modifier: 72057594037927948
+14:52:50.916: [pipewire]     Size: 1920x1080
+14:52:50.916: [pipewire]     Framerate: 0/1
+14:52:50.918: [pipewire] Negotiated format:
+14:52:50.918: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:50.918: [pipewire]     Modifier: 72057594037927946
+14:52:50.918: [pipewire]     Size: 1920x1080
+14:52:50.918: [pipewire]     Framerate: 0/1
+14:52:51.133: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:51.133: [pipewire] Stream 0x5563f5ce5080 state: "unconnected" (error: none)
+14:52:51.133: PipeWire initialized
+14:52:51.135: [pipewire] Screencast session created
+14:52:51.146: [pipewire] Asking for desktop
+14:52:51.147: [pipewire] desktop selected, setting up screencast
+14:52:51.150: [pipewire] Server version: 0.3.67
+14:52:51.150: [pipewire] Library version: 0.3.67
+14:52:51.150: [pipewire] Header version: 0.3.66
+14:52:51.150: [pipewire] Created stream 0x5563f5cc8c20
+14:52:51.150: [pipewire] Stream 0x5563f5cc8c20 state: "connecting" (error: none)
+14:52:51.151: [pipewire] Playing stream 0x5563f5cc8c20
+14:52:51.151: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:51.152: [pipewire] Negotiated format:
+14:52:51.152: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.152: [pipewire]     Modifier: 0
+14:52:51.152: [pipewire]     Size: 1920x1080
+14:52:51.152: [pipewire]     Framerate: 0/1
+14:52:51.154: [pipewire] Negotiated format:
+14:52:51.154: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.154: [pipewire]     Modifier: 72057594037927948
+14:52:51.154: [pipewire]     Size: 1920x1080
+14:52:51.154: [pipewire]     Framerate: 0/1
+14:52:51.159: [pipewire] Stream 0x5563f5cc8c20 state: "streaming" (error: none)
+14:52:51.166: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:51.166: [pipewire] Renegotiating stream
+14:52:51.166: [pipewire] Negotiated format:
+14:52:51.166: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.166: [pipewire]     Modifier: 72057594037927948
+14:52:51.166: [pipewire]     Size: 1920x1080
+14:52:51.166: [pipewire]     Framerate: 0/1
+14:52:51.169: [pipewire] Negotiated format:
+14:52:51.169: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.169: [pipewire]     Modifier: 72057594037927946
+14:52:51.169: [pipewire]     Size: 1920x1080
+14:52:51.169: [pipewire]     Framerate: 0/1
+14:52:51.336: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:51.337: [pipewire] Stream 0x5563f5cc8c20 state: "unconnected" (error: none)
+14:52:51.337: PipeWire initialized
+14:52:51.338: [pipewire] Screencast session created
+14:52:51.348: [pipewire] Asking for desktop
+14:52:51.349: [pipewire] desktop selected, setting up screencast
+14:52:51.352: [pipewire] Server version: 0.3.67
+14:52:51.352: [pipewire] Library version: 0.3.67
+14:52:51.353: [pipewire] Header version: 0.3.66
+14:52:51.353: [pipewire] Created stream 0x5563f5ce5080
+14:52:51.353: [pipewire] Stream 0x5563f5ce5080 state: "connecting" (error: none)
+14:52:51.353: [pipewire] Playing stream 0x5563f5ce5080
+14:52:51.353: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:51.354: [pipewire] Negotiated format:
+14:52:51.354: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.354: [pipewire]     Modifier: 0
+14:52:51.354: [pipewire]     Size: 1920x1080
+14:52:51.354: [pipewire]     Framerate: 0/1
+14:52:51.355: [pipewire] Negotiated format:
+14:52:51.355: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.355: [pipewire]     Modifier: 72057594037927948
+14:52:51.355: [pipewire]     Size: 1920x1080
+14:52:51.355: [pipewire]     Framerate: 0/1
+14:52:51.358: [pipewire] Stream 0x5563f5ce5080 state: "streaming" (error: none)
+14:52:51.366: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:51.366: [pipewire] Renegotiating stream
+14:52:51.366: [pipewire] Negotiated format:
+14:52:51.366: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.366: [pipewire]     Modifier: 72057594037927948
+14:52:51.366: [pipewire]     Size: 1920x1080
+14:52:51.366: [pipewire]     Framerate: 0/1
+14:52:51.368: [pipewire] Negotiated format:
+14:52:51.368: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.368: [pipewire]     Modifier: 72057594037927946
+14:52:51.368: [pipewire]     Size: 1920x1080
+14:52:51.368: [pipewire]     Framerate: 0/1
+14:52:51.763: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:51.763: [pipewire] Stream 0x5563f5ce5080 state: "unconnected" (error: none)
+14:52:51.764: PipeWire initialized
+14:52:51.766: [pipewire] Screencast session created
+14:52:51.777: [pipewire] Asking for desktop
+14:52:51.779: [pipewire] desktop selected, setting up screencast
+14:52:51.783: [pipewire] Server version: 0.3.67
+14:52:51.783: [pipewire] Library version: 0.3.67
+14:52:51.783: [pipewire] Header version: 0.3.66
+14:52:51.783: [pipewire] Created stream 0x5563f5cc8c20
+14:52:51.783: [pipewire] Stream 0x5563f5cc8c20 state: "connecting" (error: none)
+14:52:51.783: [pipewire] Playing stream 0x5563f5cc8c20
+14:52:51.783: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:51.786: [pipewire] Negotiated format:
+14:52:51.786: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.786: [pipewire]     Modifier: 0
+14:52:51.786: [pipewire]     Size: 1920x1080
+14:52:51.786: [pipewire]     Framerate: 0/1
+14:52:51.788: [pipewire] Negotiated format:
+14:52:51.788: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.788: [pipewire]     Modifier: 72057594037927948
+14:52:51.788: [pipewire]     Size: 1920x1080
+14:52:51.788: [pipewire]     Framerate: 0/1
+14:52:51.792: [pipewire] Stream 0x5563f5cc8c20 state: "streaming" (error: none)
+14:52:51.800: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:51.800: [pipewire] Renegotiating stream
+14:52:51.800: [pipewire] Negotiated format:
+14:52:51.800: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.800: [pipewire]     Modifier: 72057594037927948
+14:52:51.800: [pipewire]     Size: 1920x1080
+14:52:51.800: [pipewire]     Framerate: 0/1
+14:52:51.802: [pipewire] Negotiated format:
+14:52:51.802: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:51.802: [pipewire]     Modifier: 72057594037927946
+14:52:51.802: [pipewire]     Size: 1920x1080
+14:52:51.802: [pipewire]     Framerate: 0/1
+14:52:51.985: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:51.985: [pipewire] Stream 0x5563f5cc8c20 state: "unconnected" (error: none)
+14:52:51.986: PipeWire initialized
+14:52:51.987: [pipewire] Screencast session created
+14:52:51.999: [pipewire] Asking for desktop
+14:52:52.000: [pipewire] desktop selected, setting up screencast
+14:52:52.003: [pipewire] Server version: 0.3.67
+14:52:52.004: [pipewire] Library version: 0.3.67
+14:52:52.004: [pipewire] Header version: 0.3.66
+14:52:52.004: [pipewire] Created stream 0x5563f5ce5080
+14:52:52.004: [pipewire] Stream 0x5563f5ce5080 state: "connecting" (error: none)
+14:52:52.004: [pipewire] Playing stream 0x5563f5ce5080
+14:52:52.004: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:52.005: [pipewire] Negotiated format:
+14:52:52.005: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.005: [pipewire]     Modifier: 0
+14:52:52.005: [pipewire]     Size: 1920x1080
+14:52:52.005: [pipewire]     Framerate: 0/1
+14:52:52.007: [pipewire] Negotiated format:
+14:52:52.007: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.007: [pipewire]     Modifier: 72057594037927948
+14:52:52.007: [pipewire]     Size: 1920x1080
+14:52:52.007: [pipewire]     Framerate: 0/1
+14:52:52.012: [pipewire] Stream 0x5563f5ce5080 state: "streaming" (error: none)
+14:52:52.016: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:52.016: [pipewire] Renegotiating stream
+14:52:52.016: [pipewire] Negotiated format:
+14:52:52.016: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.016: [pipewire]     Modifier: 72057594037927948
+14:52:52.016: [pipewire]     Size: 1920x1080
+14:52:52.016: [pipewire]     Framerate: 0/1
+14:52:52.019: [pipewire] Negotiated format:
+14:52:52.019: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.019: [pipewire]     Modifier: 72057594037927946
+14:52:52.019: [pipewire]     Size: 1920x1080
+14:52:52.019: [pipewire]     Framerate: 0/1
+14:52:52.183: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:52.183: [pipewire] Stream 0x5563f5ce5080 state: "unconnected" (error: none)
+14:52:52.184: PipeWire initialized
+14:52:52.185: [pipewire] Screencast session created
+14:52:52.197: [pipewire] Asking for desktop
+14:52:52.198: [pipewire] desktop selected, setting up screencast
+14:52:52.202: [pipewire] Server version: 0.3.67
+14:52:52.202: [pipewire] Library version: 0.3.67
+14:52:52.202: [pipewire] Header version: 0.3.66
+14:52:52.202: [pipewire] Created stream 0x5563f5cc8c20
+14:52:52.202: [pipewire] Stream 0x5563f5cc8c20 state: "connecting" (error: none)
+14:52:52.202: [pipewire] Playing stream 0x5563f5cc8c20
+14:52:52.203: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:52.204: [pipewire] Negotiated format:
+14:52:52.204: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.204: [pipewire]     Modifier: 0
+14:52:52.204: [pipewire]     Size: 1920x1080
+14:52:52.204: [pipewire]     Framerate: 0/1
+14:52:52.205: [pipewire] Negotiated format:
+14:52:52.205: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.205: [pipewire]     Modifier: 72057594037927948
+14:52:52.205: [pipewire]     Size: 1920x1080
+14:52:52.205: [pipewire]     Framerate: 0/1
+14:52:52.208: [pipewire] Stream 0x5563f5cc8c20 state: "streaming" (error: none)
+14:52:52.216: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:52.216: [pipewire] Renegotiating stream
+14:52:52.216: [pipewire] Negotiated format:
+14:52:52.216: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.216: [pipewire]     Modifier: 72057594037927948
+14:52:52.216: [pipewire]     Size: 1920x1080
+14:52:52.216: [pipewire]     Framerate: 0/1
+14:52:52.218: [pipewire] Negotiated format:
+14:52:52.218: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.218: [pipewire]     Modifier: 72057594037927946
+14:52:52.218: [pipewire]     Size: 1920x1080
+14:52:52.218: [pipewire]     Framerate: 0/1
+14:52:52.371: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:52.371: [pipewire] Stream 0x5563f5cc8c20 state: "unconnected" (error: none)
+14:52:52.371: PipeWire initialized
+14:52:52.373: [pipewire] Screencast session created
+14:52:52.382: [pipewire] Asking for desktop
+14:52:52.384: [pipewire] desktop selected, setting up screencast
+14:52:52.387: [pipewire] Server version: 0.3.67
+14:52:52.387: [pipewire] Library version: 0.3.67
+14:52:52.387: [pipewire] Header version: 0.3.66
+14:52:52.387: [pipewire] Created stream 0x5563f5ce5080
+14:52:52.387: [pipewire] Stream 0x5563f5ce5080 state: "connecting" (error: none)
+14:52:52.387: [pipewire] Playing stream 0x5563f5ce5080
+14:52:52.387: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:52.388: [pipewire] Negotiated format:
+14:52:52.388: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.388: [pipewire]     Modifier: 0
+14:52:52.388: [pipewire]     Size: 1920x1080
+14:52:52.388: [pipewire]     Framerate: 0/1
+14:52:52.390: [pipewire] Negotiated format:
+14:52:52.390: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.390: [pipewire]     Modifier: 72057594037927948
+14:52:52.390: [pipewire]     Size: 1920x1080
+14:52:52.390: [pipewire]     Framerate: 0/1
+14:52:52.392: [pipewire] Stream 0x5563f5ce5080 state: "streaming" (error: none)
+14:52:52.400: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:52.400: [pipewire] Renegotiating stream
+14:52:52.400: [pipewire] Negotiated format:
+14:52:52.400: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.400: [pipewire]     Modifier: 72057594037927948
+14:52:52.400: [pipewire]     Size: 1920x1080
+14:52:52.400: [pipewire]     Framerate: 0/1
+14:52:52.401: [pipewire] Negotiated format:
+14:52:52.401: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.401: [pipewire]     Modifier: 72057594037927946
+14:52:52.401: [pipewire]     Size: 1920x1080
+14:52:52.401: [pipewire]     Framerate: 0/1
+14:52:52.593: [pipewire] Stream 0x5563f5ce5080 state: "paused" (error: none)
+14:52:52.593: [pipewire] Stream 0x5563f5ce5080 state: "unconnected" (error: none)
+14:52:52.593: PipeWire initialized
+14:52:52.595: [pipewire] Screencast session created
+14:52:52.609: [pipewire] Asking for desktop
+14:52:52.611: [pipewire] desktop selected, setting up screencast
+14:52:52.614: [pipewire] Server version: 0.3.67
+14:52:52.614: [pipewire] Library version: 0.3.67
+14:52:52.614: [pipewire] Header version: 0.3.66
+14:52:52.614: [pipewire] Created stream 0x5563f5cc8c20
+14:52:52.615: [pipewire] Stream 0x5563f5cc8c20 state: "connecting" (error: none)
+14:52:52.615: [pipewire] Playing stream 0x5563f5cc8c20
+14:52:52.615: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+14:52:52.616: [pipewire] Negotiated format:
+14:52:52.616: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.616: [pipewire]     Modifier: 0
+14:52:52.616: [pipewire]     Size: 1920x1080
+14:52:52.616: [pipewire]     Framerate: 0/1
+14:52:52.617: [pipewire] Negotiated format:
+14:52:52.617: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.617: [pipewire]     Modifier: 72057594037927948
+14:52:52.617: [pipewire]     Size: 1920x1080
+14:52:52.617: [pipewire]     Framerate: 0/1
+14:52:52.648: [pipewire] Stream 0x5563f5cc8c20 state: "streaming" (error: none)
+14:52:52.649: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+14:52:52.650: [pipewire] Renegotiating stream
+14:52:52.650: [pipewire] Negotiated format:
+14:52:52.650: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.650: [pipewire]     Modifier: 72057594037927948
+14:52:52.650: [pipewire]     Size: 1920x1080
+14:52:52.650: [pipewire]     Framerate: 0/1
+14:52:52.651: [pipewire] Negotiated format:
+14:52:52.651: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+14:52:52.651: [pipewire]     Modifier: 72057594037927946
+14:52:52.651: [pipewire]     Size: 1920x1080
+14:52:52.651: [pipewire]     Framerate: 0/1
+14:53:10.840: ---------------------------------
+14:53:10.840: [FFmpeg VAAPI encoder: 'advanced_video_recording'] settings:
+14:53:10.840: 	device:       /dev/dri/by-path/pci-0000:0d:00.0-render
+14:53:10.840: 	rate_control: CBR
+14:53:10.840: 	profile:      578
+14:53:10.840: 	level:        40
+14:53:10.840: 	qp:           0
+14:53:10.840: 	bitrate:      2500
+14:53:10.840: 	maxrate:      2500
+14:53:10.840: 	keyint:       120
+14:53:10.840: 	width:        1920
+14:53:10.840: 	height:       1080
+14:53:10.840: 	b-frames:     0
+14:53:10.840: 
+14:53:10.849: libfdk_aac encoder created
+14:53:10.849: libfdk_aac bitrate: 160, channels: 2
+14:53:10.851: ==== Recording Start ===============================================
+14:53:10.851: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/emil/2023-03-25 14-53-10.mkv'...
+14:53:24.873: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/emil/2023-03-25 14-53-10.mkv' stopped
+14:53:24.873: Output 'adv_file_output': stopping
+14:53:24.873: Output 'adv_file_output': Total frames output: 835
+14:53:24.873: Output 'adv_file_output': Total drawn frames: 841
+14:53:24.874: ==== Recording Stop ================================================
+14:53:24.879: libfdk_aac encoder destroyed
+14:53:41.033: Settings changed (outputs)
+14:53:41.033: ------------------------------------------------
+14:53:43.142: ---------------------------------
+14:53:43.142: [x264 encoder: 'advanced_video_recording'] preset: veryfast
+14:53:43.149: [x264 encoder: 'advanced_video_recording'] settings:
+14:53:43.149: 	rate_control: CBR
+14:53:43.149: 	bitrate:      2500
+14:53:43.149: 	buffer size:  2500
+14:53:43.149: 	crf:          23
+14:53:43.149: 	fps_num:      60
+14:53:43.149: 	fps_den:      1
+14:53:43.149: 	width:        1920
+14:53:43.149: 	height:       1080
+14:53:43.149: 	keyint:       250
+14:53:43.149: 
+14:53:43.163: libfdk_aac encoder created
+14:53:43.164: libfdk_aac bitrate: 160, channels: 2
+14:53:43.165: ==== Recording Start ===============================================
+14:53:43.166: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/emil/2023-03-25 14-53-43.mkv'...
+14:53:52.071: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/emil/2023-03-25 14-53-43.mkv' stopped
+14:53:52.071: Output 'adv_file_output': stopping
+14:53:52.071: Output 'adv_file_output': Total frames output: 502
+14:53:52.071: Output 'adv_file_output': Total drawn frames: 534
+14:53:52.071: ==== Recording Stop ================================================
+14:53:52.077: libfdk_aac encoder destroyed
+15:19:24.070: ==== Shutting down ==================================================
+15:19:24.106: pulse-input: Stopped recording from 'alsa_output.pci-0000_10_00.4.iec958-stereo.monitor'
+15:19:24.106: pulse-input: Got 68574 packets with 82288800 frames
+15:19:24.106: pulse-input: Stopped recording from 'alsa_input.usb-GENERAL_GENERAL_WEBCAM-02.mono-fallback'
+15:19:24.106: pulse-input: Got 68575 packets with 27430000 frames
+15:19:24.106: [pipewire] Stream 0x5563f5cc8c20 state: "paused" (error: none)
+15:19:24.106: [pipewire] Stream 0x5563f5cc8c20 state: "unconnected" (error: none)
+15:19:24.123: All scene data cleared
+15:19:24.123: ------------------------------------------------
+15:19:24.167: Freeing OBS context data
+15:19:24.178: == Profiler Results =============================
+15:19:24.178: run_program_init: 366.595 ms
+15:19:24.178:  ┣OBSApp::AppInit: 3.061 ms
+15:19:24.178:  ┃ ┗OBSApp::InitLocale: 0.645 ms
+15:19:24.178:  ┗OBSApp::OBSInit: 344.07 ms
+15:19:24.178:    ┣obs_startup: 0.591 ms
+15:19:24.178:    ┗OBSBasic::OBSInit: 324.131 ms
+15:19:24.178:      ┣OBSBasic::InitBasicConfig: 0.069 ms
+15:19:24.178:      ┣OBSBasic::ResetAudio: 0.064 ms
+15:19:24.178:      ┣OBSBasic::ResetVideo: 62.579 ms
+15:19:24.178:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+15:19:24.178:      ┣OBSBasic::InitHotkeys: 0.031 ms
+15:19:24.178:      ┣obs_load_all_modules2: 198.333 ms
+15:19:24.178:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+15:19:24.178:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+15:19:24.178:      ┃ ┣obs_init_module(decklink.so): 0.051 ms
+15:19:24.178:      ┃ ┣obs_init_module(image-source.so): 0.005 ms
+15:19:24.178:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+15:19:24.178:      ┃ ┣obs_init_module(linux-capture.so): 0.276 ms
+15:19:24.179:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+15:19:24.179:      ┃ ┣obs_init_module(linux-pipewire.so): 87.926 ms
+15:19:24.179:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+15:19:24.179:      ┃ ┣obs_init_module(linux-v4l2.so): 2.785 ms
+15:19:24.179:      ┃ ┣obs_init_module(obs-ffmpeg.so): 3.511 ms
+15:19:24.179:      ┃ ┃ ┗nvenc_check: 0.728 ms
+15:19:24.179:      ┃ ┣obs_init_module(obs-filters.so): 0.019 ms
+15:19:24.179:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+15:19:24.179:      ┃ ┣obs_init_module(obs-outputs.so): 0.001 ms
+15:19:24.179:      ┃ ┣obs_init_module(obs-transitions.so): 0.006 ms
+15:19:24.179:      ┃ ┣obs_init_module(obs-vst.so): 0.001 ms
+15:19:24.179:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+15:19:24.179:      ┃ ┣obs_init_module(rtmp-services.so): 0.512 ms
+15:19:24.179:      ┃ ┗obs_init_module(text-freetype2.so): 0.007 ms
+15:19:24.179:      ┣OBSBasic::ResetOutputs: 1.567 ms
+15:19:24.179:      ┣OBSBasic::CreateHotkeys: 0.027 ms
+15:19:24.179:      ┣OBSBasic::InitService: 0.627 ms
+15:19:24.179:      ┣OBSBasic::InitPrimitives: 0.099 ms
+15:19:24.179:      ┗OBSBasic::Load: 40.546 ms
+15:19:24.179: obs_hotkey_thread(25 ms): min=0.033 ms, median=0.07 ms, max=28.326 ms, 99th percentile=0.151 ms, 99.9985% below 25 ms
+15:19:24.179: audio_thread(Audio): min=0.005 ms, median=0.029 ms, max=4.162 ms, 99th percentile=0.206 ms
+15:19:24.179:  ┗receive_audio: min=0.001 ms, median=0.272 ms, max=4.13 ms, 99th percentile=0.454 ms, 0.0133867 calls per parent call
+15:19:24.179:    ┣buffer_audio: min=0 ms, median=0 ms, max=0.01 ms, 99th percentile=0.002 ms
+15:19:24.179:    ┗do_encode: min=0.064 ms, median=0.27 ms, max=4.129 ms, 99th percentile=0.451 ms
+15:19:24.179:      ┣encode(Track1): min=0.123 ms, median=0.23 ms, max=0.369 ms, 99th percentile=0.352 ms, 0.611578 calls per parent call
+15:19:24.179:      ┣send_packet: min=0.001 ms, median=0.004 ms, max=3.981 ms, 99th percentile=0.025 ms
+15:19:24.179:      ┗encode(Track1): min=0.06 ms, median=0.292 ms, max=0.505 ms, 99th percentile=0.451 ms, 0.388422 calls per parent call
+15:19:24.179: obs_graphics_thread(16.6667 ms): min=0.018 ms, median=0.434 ms, max=25.801 ms, 99th percentile=3.598 ms, 99.999% below 16.667 ms
+15:19:24.179:  ┣tick_sources: min=0 ms, median=0.003 ms, max=22.329 ms, 99th percentile=0.008 ms
+15:19:24.179:  ┣output_frame: min=0.008 ms, median=0.115 ms, max=4.72 ms, 99th percentile=0.647 ms
+15:19:24.179:  ┃ ┣gs_context(video->graphics): min=0.008 ms, median=0.115 ms, max=4.72 ms, 99th percentile=0.227 ms
+15:19:24.179:  ┃ ┃ ┣render_video: min=0.005 ms, median=0.037 ms, max=1.131 ms, 99th percentile=0.086 ms
+15:19:24.179:  ┃ ┃ ┃ ┣render_main_texture: min=0.004 ms, median=0.035 ms, max=0.58 ms, 99th percentile=0.068 ms
+15:19:24.179:  ┃ ┃ ┃ ┣render_convert_texture: min=0.009 ms, median=0.022 ms, max=0.956 ms, 99th percentile=0.033 ms, 0.0133749 calls per parent call
+15:19:24.179:  ┃ ┃ ┃ ┗stage_output_texture: min=0.005 ms, median=0.014 ms, max=0.137 ms, 99th percentile=0.019 ms, 0.0133749 calls per parent call
+15:19:24.179:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.065 ms, max=2.192 ms, 99th percentile=0.159 ms
+15:19:24.179:  ┃ ┃ ┗download_frame: min=0 ms, median=0.066 ms, max=0.186 ms, 99th percentile=0.152 ms, 0.0133749 calls per parent call
+15:19:24.179:  ┃ ┗output_video_data: min=0.257 ms, median=0.451 ms, max=4.39 ms, 99th percentile=0.609 ms, 0.0133555 calls per parent call
+15:19:24.179:  ┗render_displays: min=0.001 ms, median=0.27 ms, max=6.343 ms, 99th percentile=0.467 ms
+15:19:24.179: video_thread(video): min=1.067 ms, median=1.935 ms, max=8.134 ms, 99th percentile=2.403 ms
+15:19:24.179:  ┗receive_video: min=1.066 ms, median=1.934 ms, max=8.132 ms, 99th percentile=2.402 ms
+15:19:24.179:    ┗do_encode: min=1.038 ms, median=1.933 ms, max=8.129 ms, 99th percentile=2.401 ms
+15:19:24.179:      ┣encode(advanced_video_recording): min=1.648 ms, median=2.031 ms, max=8.121 ms, 99th percentile=2.456 ms, 0.611354 calls per parent call
+15:19:24.179:      ┣send_packet: min=0.001 ms, median=0.007 ms, max=4.783 ms, 99th percentile=0.022 ms
+15:19:24.179:      ┗encode(advanced_video_recording): min=1.023 ms, median=1.427 ms, max=2.09 ms, 99th percentile=1.855 ms, 0.388646 calls per parent call
+15:19:24.179: OBSBasic::ResetOutputs: 0.146 ms
+15:19:24.179: =================================================
+15:19:24.179: == Profiler Time Between Calls ==================
+15:19:24.179: obs_hotkey_thread(25 ms): min=25.05 ms, median=25.129 ms, max=53.388 ms, 99.9502% within ±2% of 25 ms (0% lower, 0.0498358% higher)
+15:19:24.179: obs_graphics_thread(16.6667 ms): min=7.521 ms, median=16.667 ms, max=25.806 ms, 99.9942% within ±2% of 16.667 ms (0.00291608% lower, 0.00291608% higher)
+15:19:24.179: =================================================
+15:19:24.202: Number of memory leaks: 0
