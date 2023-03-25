@@ -1,0 +1,5 @@
+2023/03/25-18:39:30.070 a04d Creating DB /home/emil/.config/WebCord/Local Storage/leveldb since it was missing.
+2023/03/25-18:39:30.081 a04d Reusing MANIFEST /home/emil/.config/WebCord/Local Storage/leveldb/MANIFEST-000001
+2023/03/25-18:41:54.086 a04c Level-0 table #5: started
+2023/03/25-18:41:54.102 a04c Level-0 table #5: 1493429 bytes OK
+2023/03/25-18:41:54.105 a04c Delete type=0 #3

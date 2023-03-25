@@ -12,7 +12,7 @@ rm -rf /etc/pacman.conf
 ln -sf /root/dotfiles/pacman.conf /etc/
 mount /dev/nvme0n1p2 /mnt
 mount --mkdir /dev/nvme0n1p1 /mnt/boot
-pacstrap -K /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano dmenu firefox sddm i3status neofetch git discord pipewire pipewire-alsa pipewire-pulse wireplumber pavucontrol steam go bluez bluez-utils openssh bash-completion mesa lib32-mesa vulkan-intel sway swaybg foot xorg-xwayland polkit
+pacstrap -K /mnt base base-devel linux linux-firmware networkmanager emacs man-db man-pages texinfo amd-ucode grub efibootmgr nano dmenu firefox xorg-server cinnamon gnome-terminal sddm neofetch git discord pipewire pipewire-alsa pipewire-pulse wireplumber pavucontrol steam go bluez bluez-utils openssh bash-completion mesa lib32-mesa vulkan-intel lib32-vulkan-intel intel-media-driver sway swaybg foot xorg-xwayland polkit obs-studio qt6-wayland qt6ct xdg-desktop-portal xdg-desktop-portal-wlr vlc slurp
 mount --mkdir /dev/sda1 /mnt/mnt/steam
 genfstab -U /mnt >> /mnt/etc/fstab
 echo "root:$1" >> /mnt/pass.txt
@@ -66,6 +66,8 @@ git clone https://www.github.com/Emil-Engberg/Emacs_conf
 ln -sf ~/github/Emacs_conf/ ~/.emacs.d
 git clone https://www.github.com/Emil-Engberg/dotfiles.git/
 ln -sf ~/github/dotfiles/.config ~/
+ln -sf ~/github/dotfiles/.bash_profile ~/
+ln -sf ~/github/dotfiles/.bashrc ~/
 ln -sf ~/github/dotfiles/.gitconfig ~/
 ln -sf ~/github/dotfiles/.global_gitignore ~/
 EOF
